@@ -72,7 +72,8 @@ The system efficiently processes and analyzes the dataset, enabling quick genera
 The Movie Recommendation System project achieves a perfect blend of advanced machine learning algorithms and a user-friendly interface. Users can embark on a personalized movie discovery journey, empowered by accurate recommendations and an immersive interactive experience. Streamlit's flexibility, simplicity, and interactivity make it an invaluable tool for creating engaging and user-centric web applications, transforming data-driven projects into intuitive and visually appealing experiences.
 ![image](https://github.com/itsemran/Movie-Recommendation-System/assets/128180227/6579323c-44bd-480e-aa37-b1277db2f891)
 
-
+### DATASET:
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
 ### Contributing
 
 Contributions to the Movie Recommendation System are welcome! If you have ideas, enhancements, or bug fixes, please submit a pull request. Additionally, feel free to open an issue to discuss any suggestions or improvements you may have.
