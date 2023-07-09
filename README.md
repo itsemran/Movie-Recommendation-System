@@ -1,7 +1,7 @@
 # Movie-Recommendation-System
 
 Welcome to the Movie Recommendation System! This project aims to provide highly accurate and personalized movie suggestions to users. By leveraging machine learning techniques and advanced algorithms, the system revolutionizes the way users discover their next favorite films. The provided code in this repository allows you to explore and implement the Movie Recommendation System.
-Table of Contents
+#Table of Contents
 
     Introduction
     Installation
@@ -11,7 +11,7 @@ Table of Contents
     Contributing
     License
 
-Introduction
+#Introduction
 
 The Movie Recommendation System utilizes the power of machine learning to analyze user preferences and provide personalized movie recommendations. By considering factors such as movie genres, keywords, cast, crew, and overview, the system generates movie suggestions that align with individual tastes and interests. The code provided in this repository showcases the implementation of the system.
 Installation
@@ -30,9 +30,9 @@ bash
 
     pip install pandas numpy nltk sklearn
 
-Usage
+#Usage
 
-To use the Movie Recommendation System:
+##To use the Movie Recommendation System:
 
     Navigate to the project directory.
     Open the provided code file, movie_recommendation_system.py, in your preferred Python environment.
@@ -41,9 +41,9 @@ To use the Movie Recommendation System:
     Once the code finishes executing, you can utilize the recommendation functionality by calling the recommend(movie) function, where movie is the title of the movie for which you want recommendations.
     The system will provide a list of similar movie recommendations based on the input movie.
 
-Features
+#Features
 
-The Movie Recommendation System incorporates the following features:
+##The Movie Recommendation System incorporates the following features:
 
     Data Loading and Preprocessing: The system uses the pandas library to load the dataset files (tmdb_5000_credits.csv and tmdb_5000_movies.csv). It merges the datasets, selects relevant columns, and drops any null values or duplicates to ensure data quality and consistency.
 
@@ -57,9 +57,9 @@ The Movie Recommendation System incorporates the following features:
 
     Cosine Similarity: The system employs the cosine_similarity function from the sklearn library to calculate the similarity between movies based on their vectorized tags. By comparing the movies' numerical representations, the system identifies similar movies that users may enjoy.
 
-    Movie Recommendation: The system provides a recommend(movie) function that suggests similar movies based on the input movie. By calculating the similarity between the input movie and other movies in the dataset, the system generates a list of top recommendations.
+    ###Movie Recommendation: The system provides a recommend(movie) function that suggests similar movies based on the input movie. By calculating the similarity between the input movie and other movies in the dataset, the system generates a list of top recommendations.
 
-Results
+#Results
 
 The Movie Recommendation System offers accurate and personalized movie recommendations based on the input movie:
 
